@@ -1,0 +1,16 @@
+Field Tech Communication
+User Stories
+
+*A user in this application would be a field technician. 
+*Field technicians will be able to communicate with other field technicians through a ticketing system.
+*The ticketing system will allow them to log what they have done and what they think needs to be done.
+*Technicians following the ticket will be able to see the changes done to avoid doing the same tasks previously tried.
+
+-As a user, I want to be able to sign into my account.
+-As a user, I want to be able to create tickets.
+-As a user, I want to be be able to see tickets that have been assigned to me.
+-As a user, I want to be able to update tickets and close them if the ticket has been resolved.
+-As a user, I want to be able to comment on tickets in case I would like to recommend something for future reference.
+-As a user, I want to be able to sort my open tickets and tickets I have worked on in the past. 
+-As a user, I want to be able to Reassign tickets to other people.
+-As a user, I want to be able to see all of the tickets that are available. 
