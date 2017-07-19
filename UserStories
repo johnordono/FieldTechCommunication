@@ -13,7 +13,8 @@ July 19, 2017
 ## USER STORIES
 -As a user, I want to be able to sign into my account.
 -As a user, I want to be able to create tickets.
--As a user, I want to see the problem that a customer is having on the ticket so I know what needs to be resolved. 
+-As a user, I want to see the problem that a customer is having on the ticket so I know what needs to be resolved.
+-As a user, I want to see the Name, Address, Phone Number, and Avaialble Visit Times for the customer. 
 -As a user, I want to be be able to see tickets that have been assigned to me.
 -As a user, I want to be able to update tickets and change their status to things such as 'New', 'In Work', or 'Resolved.'
 -As a user, I want to be able to close tickets if they have been resolved with a Resolved Note.
