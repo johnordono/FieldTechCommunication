@@ -3,14 +3,14 @@ Project - Field Tech Communication
 User Stories
 July 19, 2017
 
-BACKGROUND
+## BACKGROUND
 *A user in this application would be a field technician. 
 *Field technicians will be able to communicate with other field technicians through a ticketing system.
 *The ticketing system will allow them to log what they have done and what they think needs to be done.
 *Technicians following the ticket will be able to see the work that has been done to avoid doing the same tasks previously tried.
 *This would boost efficiency by cutting down visit times.  
 
-USER STORIES
+## USER STORIES
 -As a user, I want to be able to sign into my account.
 -As a user, I want to be able to create tickets.
 -As a user, I want to see the problem that a customer is having on the ticket so I know what needs to be resolved. 
