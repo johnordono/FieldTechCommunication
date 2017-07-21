@@ -1,0 +1,5 @@
+com\spectrum\tech\technician\TechnicianService.class
+com\spectrum\tech\technician\TechnicianRepository.class
+com\spectrum\tech\App.class
+com\spectrum\tech\technician\Technician.class
+com\spectrum\tech\technician\TechnicianController.class
