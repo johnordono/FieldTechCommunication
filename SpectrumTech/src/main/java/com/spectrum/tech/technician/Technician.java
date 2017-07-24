@@ -15,29 +15,31 @@ public class Technician implements Serializable {
     private String firstName;
     private String lastName;
     private String location;
-    private List<Ticket> assignedTickets = new ArrayList<>();
+    private List<String> assignedTickets = new ArrayList<>(); //List of Ticket id's
 
 
     public Technician() {
     }
 
-    public Technician(String id, String firstName, String lastName, String location, List<Ticket> tickets){
+    public Technician(String id, String firstName, String lastName, String location, List<String> tickets){
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.location = location;
-        this.assignedTickets = tickets;
+        this.assignedTickets = assignedTickets;
     }
 
     public String getId(){ return id; }
     public String getFirstName(){ return firstName; }
     public String getLastName() { return lastName; }
     public String getLocation() { return location; }
-    public List<Ticket> getAssignedTickets() { return assignedTickets; }
+    public List<String> getAssignedTickets() { return assignedTickets; }
 
     public void setId(String id){ this.id = id; }
     public void setFirstName(String firstName){this.firstName = firstName; }
     public void setLastName(String lastName) { this.lastName = lastName; }
     public void setLocation(String location) { this.location = location; }
-    public void addAssignedTicket
+
+    public void addAssignedTicket(Ticket ticket){ this.assignedTickets.add(ticket.getId());}
+    public void removeAssignedTicket(String id){ this.assignedTickets.remove(id); }
 }
