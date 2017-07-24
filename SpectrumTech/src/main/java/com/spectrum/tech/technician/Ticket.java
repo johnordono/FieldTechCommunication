@@ -16,12 +16,13 @@ public class Ticket implements Serializable{
     private String status;
     private String priority;
     private String problemType;
+    private String description;
 
     public Ticket(){
     }
 
     public Ticket(String id, String clientName, String clientAddress, String clientPhone, String visitTime,
-                    String status, String priority, String problemType){
+                    String status, String priority, String problemType, String description){
         this.id = id;
         this.clientName = clientName;
         this.clientAddress = clientAddress;
@@ -30,6 +31,7 @@ public class Ticket implements Serializable{
         this.status = status;
         this.priority = priority;
         this.problemType = problemType;
+        this.description = description;
     }
 
     public String getId() { return id; }
@@ -55,5 +57,8 @@ public class Ticket implements Serializable{
 
     public String getProblemType() { return problemType; }
     public void setProblemType(String problemType) { this.problemType = problemType; }
+
+    public String getDescription(){ return description; }
+    public void setDescription(String description){ this.description = description; }
 
 }
