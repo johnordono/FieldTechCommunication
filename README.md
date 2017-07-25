@@ -4,3 +4,11 @@ Often times, field technicians will have to go to a location for the same proble
 
 ## FILES
 UserStories.txt-
+Includes user stories that could be asked for in an application like this. 
+
+technician folder: Technician.java, TechnicianController.java, TechnicianService.java, TechnicianRepository.java-
+
+ticket folder: Ticket.java, TicketController.java, TicketService.java, TicketRepository.java-
+
+## PROGRESS
+7/25 - So far, most of the back end has been completed. Seeing that this internship will be ending in-office by next Thursday, I will probably have a very basic front end. This will include creating a Technician's account and adding/editing Tickets.
