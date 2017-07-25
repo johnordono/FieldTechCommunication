@@ -1,5 +1,9 @@
-com\spectrum\tech\technician\TechnicianService.class
 com\spectrum\tech\technician\TechnicianRepository.class
 com\spectrum\tech\App.class
 com\spectrum\tech\technician\Technician.class
 com\spectrum\tech\technician\TechnicianController.class
+com\spectrum\tech\technician\TechnicianService.class
+com\spectrum\tech\ticket\Ticket.class
+com\spectrum\tech\ticket\TicketController.class
+com\spectrum\tech\ticket\TicketService.class
+com\spectrum\tech\ticket\TicketRepository.class
