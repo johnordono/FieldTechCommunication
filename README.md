@@ -10,5 +10,3 @@ technician folder: Technician.java, TechnicianController.java, TechnicianService
 
 ticket folder: Ticket.java, TicketController.java, TicketService.java, TicketRepository.java-
 
-## PROGRESS
-7/25 - So far, most of the back end has been completed. Seeing that this internship will be ending in-office by next Thursday, I will probably have a very basic front end. This will include creating a Technician's account and adding/editing Tickets.
