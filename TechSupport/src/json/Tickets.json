@@ -1,0 +1,46 @@
+[
+  {
+    "id": "T1",
+    "clientName": "August Rivers",
+    "clientAddress": "303 River Lane, Houston, TX",
+    "clientPhone": "333 505 6789",
+    "visitTime": "8:30 AM",
+    "status": "New",
+    "priority": "Urgent",
+    "problemType": "Internet Down",
+    "description": "Client's router is not lighting up despite that it is plugged in."
+  },
+  {
+    "id": "T2",
+    "clientName": "June Ocean",
+    "clientAddress": "909 Ocean View Road, Chicago, IL",
+    "clientPhone": "333 505 6789",
+    "visitTime": "12:45 PM",
+    "status": "Visited",
+    "priority": "Low",
+    "problemType": "No phone service",
+    "description": "Client's phone is not working. Cell phone provided."
+  },
+  {
+    "id": "T3",
+    "clientName": "May Swamp",
+    "clientAddress": "4057 Swamp Circle, Salem, OR",
+    "clientPhone": "120 678 9010",
+    "visitTime": "11:30 AM",
+    "status": "Resolved",
+    "priority": "Low",
+    "problemType": "Internet Down",
+    "description": "Client's internet was down, but resolved now."
+  },
+  {
+    "id": "T3",
+    "clientName": "Trevor Noah",
+    "clientAddress": "505 Daily Lane, Los Angeles, CA",
+    "clientPhone": "444 555 7070",
+    "visitTime": "1:30 PM",
+    "status": "New",
+    "priority": "High",
+    "problemType": "Internet Down",
+    "description": "Client's internet down."
+  }
+]
